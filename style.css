@@ -129,3 +129,81 @@ body {
 .word__btn:hover {
     background-color: #2B53D6;
 }
+
+.layout__definitions {
+    margin-bottom: 2rem;
+}
+
+.definitions__title {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #EDEDED;
+    line-height: 0.1rem;
+    margin: 1rem 0 3.5rem;
+    font-size: 2.1rem;
+    color: #3A3A3A;
+}
+
+.definitions__title span {
+    background-color: #FFFFFF;
+    padding: 0 2.5rem;
+}
+
+.definitions__list {
+    list-style: none;
+    padding-left: 1.5rem;
+}
+
+.list__item {
+    position: relative;
+    margin-bottom: 2.8rem;
+    padding-left: 1.5rem;
+    line-height: 2.4rem;
+    font-size: 1.55rem;
+    color: #444444;
+}
+
+.list__item::before {
+    content: "•";
+    color: #2B53D6;
+    font-weight: bold;
+    font-size: 2rem;
+    position: absolute;
+    left: -0.5rem;
+    top: -0.1rem;
+}
+
+.list__definition b {
+    color: #2B53D6;
+}
+
+.definitions__syn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.8rem;
+    margin-top: 3.5rem;
+    padding-bottom: 2.5rem;
+    border-bottom: 1px solid #EDEDED;
+    font-size: 1.55rem;
+}
+
+.syn__title {
+    color: #888888;
+    font-weight: bold;
+    margin-right: 0.8rem;
+}
+
+.syn__item {
+    color: #2B53D6;
+    font-weight: bold;
+}
+
+.layout__footer {
+    padding: 1.5rem 0 4rem;
+}
+
+.footer__text {
+    font-size: 1.3rem;
+    color: #999999;
+}
