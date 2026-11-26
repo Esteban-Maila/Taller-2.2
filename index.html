@@ -9,7 +9,27 @@
 </head>
 <body>
     <div class="layout">
+        <header class="layout__header">
+            <div class="header__top">
+                <i class="fa-solid fa-language"></i>
+                <h3 class="header__title">Traductor</h3>
+            </div>
 
+            <div class="header__bottom">
+                <form class="header__form">
+                    <div class="form__search">
+                        <input type="search" class="search__input" placeholder="Introduce una palabra">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <select name="languages" class="form__select">
+                        <option value="esp" class="select__option">Español</option>
+                        <option value="ing" class="select__option">Inglés</option>
+                        <option value="fra" class="select__option">Francés</option>
+                        <option value="ale" class="select__option">Alemán</option>
+                    </select>
+                </form>
+            </div>
+        </header>
     </div>
 </body>
 </html>
